@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistant Engineers</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.js"></script> 
+    <!-- MathJax para ecuaciones  -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <!-- Material Icons Google -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+</head>
+<body>            
+    <div class="container-fluid">
+        <div class="row text-center">
+            <h1 class="display-1">Assistant Engineers</h1>
+            <h2 class="display-6">Conoce más con los vídeos</h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-sm-10 col-xs-10">
+                <div class="avatarTitle">
+                    <img src="https://avatars.dicebear.com/api/adventurer/Lia.svg">
+                </div>
+                <!-- Sabías qué Sección -->
+                <div class="alert alert-info" role="alert">
+                    
+                    <h4 class="alert-heading display-6">
+                        <span class="material-symbols-outlined">tips_and_updates</span>
+                        <b>Sabías que ...</b> 
+                    </h4>
+                    <hr>
+                    <p id="sabiasQue">
+                        <!-- Mensaje Aleatorio -->
+                        <script src="app.js" type="text/javascript"></script>
+                    </p>  
+                </div>
+            </div>
+        </div>
+        <!-- Sección vídeos -->
+        <div class="row justify-content-around text-center">
+            <div class="col-10 col-lg-8">
+                <div class="accordion" id="chapters">
+                    <!-- Primer video -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-item" id="heading-1">
+                            <button class="accordion-button" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#video-1" 
+                            aria-expanded="true" 
+                            aria-controls="video-1">
+                                Video 1 - Getting involved
+                            </button>
+                        </h2>
+                        <div 
+                        id="video-1" 
+                        class="accordion-collapse collapse" 
+                        aria-labelledby="heading-1" 
+                        data-bs-parent="#videos">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia id laboriosam similique magnam corporis. Sed velit ipsa a enim 
+                                quasi, dolorem inventore error veritatis at maxime tenetur perspiciatis? Voluptatum, quaerat!</p>
+                                <div class="ratio ratio-16x9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cVThXv6hYW0" 
+                                    title="YouTube video player" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Segundo video -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-item" id="heading-2">
+                            <button class="accordion-button" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#video-2" 
+                            aria-expanded="true" 
+                            aria-controls="video-2">
+                                Video 2 - How do I change the size of this video?
+                            </button>
+                        </h2>
+                        <div 
+                        id="video-2" 
+                        class="accordion-collapse collapse" 
+                        aria-labelledby="heading-2" 
+                        data-bs-parent="#videos">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia id laboriosam similique magnam corporis. Sed velit ipsa a enim 
+                                quasi, dolorem inventore error veritatis at maxime tenetur perspiciatis? Voluptatum, quaerat!</p>
+                                <div class="ratio ratio-16x9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cVThXv6hYW0" 
+                                    title="YouTube video player" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tercer video -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-item" id="heading-3">
+                            <button class="accordion-button" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#video-3" 
+                            aria-expanded="true" 
+                            aria-controls="video-3">
+                                Video 3 - Saving Time...
+                            </button>
+                        </h2>
+                        <div 
+                        id="video-3" 
+                        class="accordion-collapse collapse" 
+                        aria-labelledby="heading-2" 
+                        data-bs-parent="#videos">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia id laboriosam similique magnam corporis. Sed velit ipsa a enim 
+                                quasi, dolorem inventore error veritatis at maxime tenetur perspiciatis? Voluptatum, quaerat!</p>
+                                <div class="ratio ratio-16x9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cVThXv6hYW0" 
+                                    title="YouTube video player" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cuarto video -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-item" id="heading-4">
+                            <button class="accordion-button" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#video-4" 
+                            aria-expanded="true" 
+                            aria-controls="video-4">
+                                Video 4 - Knowing each other
+                            </button>
+                        </h2>
+                        <div 
+                        id="video-4" 
+                        class="accordion-collapse collapse" 
+                        aria-labelledby="heading-4" 
+                        data-bs-parent="#videos">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia id laboriosam similique magnam corporis. Sed velit ipsa a enim 
+                                quasi, dolorem inventore error veritatis at maxime tenetur perspiciatis? Voluptatum, quaerat!</p>
+                                <div class="ratio ratio-16x9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cVThXv6hYW0" 
+                                    title="YouTube video player" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-10 col-xs-10">
+                <br>
+                <!-- Botón regreso -->
+                <a href="index.html" class="btn btn-outline-success">Volver</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <br>
+    </div>
+</body>
+
+</html>
