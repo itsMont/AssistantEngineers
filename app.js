@@ -6,7 +6,7 @@ let opciones = [
       "La derivada $$(ln(2x) + 4x^3) = {1\\over x} + 12x^2$$ para este se aplica la regla de la suma o diferencia que es $$(f \\pm g)' = f' \\pm g'$$",
       "La antiderivada de $$tan^{-1}(x) = {1\\over x^2 + 1}$$",
       "La integral de $$tan^2(x) = tan(x) - x + c$$",
-      "La fórmula de multiplicación por una constante es $$\\int af'(x)dx = a\\int f' (x)dx = af(x) + c$$",
+      "La fórmula de multiplicación por una constante es $$\\int af'(x)dx = a$$ $$\\int f' (x)dx = af(x) + c$$",
       "La integral definida se resuelve de la siguiente manera $$\\int_{a}^{b} f'(x)dx = f(b) - f(a)$$",
       "Las cantidades físicas fundamentales de las cuales derivan el resto son: <ul><li>Longitud</li> <li>Masa</li> <li>Tiempo</li></ul>",
       "Si tenemos un ángulo en el eje x, la componente <i>y</i> siempre estará relacionada con el seno y la componente <i>x</i> con el coseno.",
